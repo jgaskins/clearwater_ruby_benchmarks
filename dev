@@ -1,0 +1,3 @@
+#!/bin/sh
+
+(bundle check || bundle) && rerun -i 'assets/**/*' 'rackup -p 3000'
